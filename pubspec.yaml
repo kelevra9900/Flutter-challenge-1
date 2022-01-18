@@ -1,0 +1,46 @@
+name: challenge1
+description: A new Flutter challenge for fun.
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: "none" # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+  
+dependencies:
+  cupertino_icons: ^1.0.2
+  flutter:
+    sdk: flutter
+  sliding_up_panel: ^2.0.0+1
+
+dev_dependencies:
+  very_good_analysis: ^2.4.0
+
+  flutter_lints: ^1.0.0
+  flutter_test:
+    sdk: flutter
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+# The following section is specific to Flutter.
+flutter:
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+  assets:
+    - asset/badges/
+    - asset/certificates/
+    - asset/icons/
+    - asset/illustrations/
+    - asset/images/
+    - asset/logos/
+  fonts:
+    - family: SF Pro Text
+      fonts:
+        - asset: asset/fonts/SFProText-Regular.ttf
+        - asset: asset/fonts/SFProText-Bold.ttf
+          weight: 800
